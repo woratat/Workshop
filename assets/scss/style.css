@@ -12,4 +12,12 @@ body {
   width: 270px;
   height: 270px;
 }
+
+#logo {
+  position: absolute;
+  width: 101px;
+  height: 74px;
+  left: 49px;
+  top: -7px;
+}
 /*# sourceMappingURL=style.css.map */
