@@ -12,4 +12,13 @@ body {
   width: 270px;
   height: 270px;
 }
+
+@media screen and (max-width: 1080px) {
+  .card-grid {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
