@@ -7,6 +7,34 @@ body {
     padding: 0;
 }
 
+section {
+    .container {
+        h3 {
+            margin-top: 30px;
+        }
+        nav {
+            ol {
+                li {
+                    margin-bottom: 15px;
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+}
+
+.carousel-inner {
+    .carousel-item {
+        .carousel-caption {
+            h5 {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            p {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+        }
+    }
+}
 .image-product {
     width: 270px;
     height: 270px;
