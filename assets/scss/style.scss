@@ -61,3 +61,29 @@ body > main > section:nth-child(2) > div > div.content-title > h1
         gap: 1.5rem;
     }
 }
+
+@media screen and (max-width: 760px) {
+    .card-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+    
+    .home-show {
+        display: none;
+    }
+
+    .logo-show {
+        display: none;
+    }
+
+    .nav-show {
+        display: none;
+    }
+
+    .basket {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+}

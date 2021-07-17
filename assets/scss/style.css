@@ -55,4 +55,32 @@ body > main > section:nth-child(2) > div > div.content-title > h1 {
     gap: 1.5rem;
   }
 }
+
+@media screen and (max-width: 760px) {
+  .card-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  .home-show {
+    display: none;
+  }
+  .logo-show {
+    display: none;
+  }
+  .nav-show {
+    display: none;
+  }
+  .basket {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
 /*# sourceMappingURL=style.css.map */
